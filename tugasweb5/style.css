@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    margin: 50px 0;
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: start;
+    background-color: #49BFB7;
+}
+
+nav a:hover{
+    background-color: #46C2CB;
+    transition: .2s all;
+}
+nav a{
+    display: inline-block;
+    color: #fff;
+    padding: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 18px;
+    background: solid black;
+    color: #0E8388;
+}
+
+footer a {
+    color: black;
+}
+
+.main{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
+
+.tambah{
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    background-color: #49BFB7;
+    width: max-content;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.tambah:hover{
+    background-color: #0E8388;
+    transition: .2s all;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #B5D5C5;
+    color:black;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+table tr th{
+    color: #fff;
+    background-color: #0E8388;
+}
+
+table tr:hover{
+    background-color: #86C8BC;
+    color: white;
+}
+
+table th, td{
+    padding: 10px 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+table td a{
+    margin: 0 auto;
+    border: none;
+    padding: 8px 12px;
+    background-color: #8EC3B0;
+    color: #FFFFFF;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+}
+  
+table a:hover {
+    background-color: #49BFB7;
+  }
+
+table tr td:nth-child(5) a{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+table tr td:nth-child(5), table tr th:nth-child(5){
+    width: 18%;
+} 
+
+.card {
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.228);
+    background-color: #49BFB7;
+    color: black;
+}
+
+.card .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .input input[type="text"]{
+    padding: 6px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card .input label{
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.card button{
+    margin-top: 12px;
+    padding: 6px 20px;
+    border: 1px solid #780000;
+    background-color: #0E8388;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.card button:hover{
+    background-color: #46C2CB;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+h1 {
+    background-image: linear-gradient(to right, #ef233c, #780000);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.akun a {
+    color: black;
+}
